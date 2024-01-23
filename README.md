@@ -33,12 +33,18 @@ in the right-hand column and the button disappears
 ## Repository
 
 ```
-
+https://github.com/jsaini1727/noteTaker
 
 ```
 
 ## Link To Project
 
 ```
+https://note-taker-andp.onrender.com/notes
+```
 
+## Screenshot from Render
+
+```
+<img src="./Assets/Screenshot RenderNoteTaker.png">
 ```

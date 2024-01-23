@@ -23,19 +23,21 @@ router.post('/notes', (req, res) => {
 
     })
     res.json('note added')
+    return;
 });
 
 // Route to delete a note from the server with an ID
 router.delete('/notes/:id', async (req, res) => {
-    const filteredNotes = db.filter((note) => req.params.id !== note.id)
+    const filteredNotes = await db.filter((note) => req.params.id !== note.id)
 
-    fs.writeFile('./db/db.json', JSON.stringify(filteredNotes), (err, result) => {
+    fs.writeFile('./db/db.json', JSON.stringify(filteredNotes), (err) => {
         if (err) throw err;
-        
+        console.log('Note has been deleted', filteredNotes);
     })
-   res.json('result');
-    console.log('Note has been deleted')
-})
+   
+    return filteredNotes;
+  
+});
 
 
 
