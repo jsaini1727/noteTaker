@@ -7,26 +7,13 @@ This is an app for a  small business owner who is be able to write and save note
 SO THAT they can organize their thoughts and keep track of tasks they need to complete.
 ```
 
-## Acceptance Criteria
+## Description
 
 ```
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, 
-plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a "Save Note" button and a "Clear Form" button appear in the navigation at the top 
-of the page
-WHEN I click on the Save button
-THEN the new note I have entered is saved and appears in the left-hand column with the
-other existing notes and the buttons in the navigation disappear
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column and a "New Note" button appears in the 
-navigation
-WHEN I click on the "New Note" button in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text
+This application called the Note Taker helps a user to write and saves notes thereby enabling them to organize themselves and not miss out something important during the course of the day, month or a year. When they click on the link to the notes page they are presented with a list of existing notes on the left and on the right they are provided with an empty field to enter the title of the note alongwith the text that will go with that respective note. The "Clear Form" appears when one enters the title and it is only when one starts writing in the text field that the "Save Note" shows up in the navigation bar. 
+When the user chooses the save button that note is saved and it appears on the left side of the browser with the existing notes and the buttons disappear in the navigation. 
+When the user clicks on an existing note in the list in the left-hand column that note appears in the right-hand column and a "New Note" button appears in the 
+navigation. When the user click on the "New Note" button in the navigation at the top of the page then they are presented with empty fields to enter a new note title and the note’s text
 in the right-hand column and the button disappears
 ```
 
